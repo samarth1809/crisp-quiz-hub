@@ -61,7 +61,7 @@ export function Quiz({
           </div>
 
           <div key={q.id} className="fade-in-q">
-            <h2 className="mt-4 text-lg font-semibold leading-relaxed sm:text-xl">{q.text}</h2>
+            <h2 className="mt-4 font-display text-xl font-semibold leading-relaxed sm:text-2xl">{q.text}</h2>
 
             <div className="mt-6 space-y-3">
               {q.options.map((opt, i) => {

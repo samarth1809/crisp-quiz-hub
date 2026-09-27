@@ -45,7 +45,7 @@ export function Results({
         >
           {passed ? "Pass" : "Fail"}
         </span>
-        <p className="mt-5 text-4xl font-semibold tracking-tight sm:text-5xl">
+        <p className="mt-5 font-display text-5xl font-semibold tracking-tight sm:text-6xl">
           {correct} / {total}
         </p>
         <p className="mt-1 text-sm text-muted-foreground">
