@@ -10,13 +10,13 @@ import { Results } from "@/components/quiz/Results";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Certify — Mock Test & Assessment Portal" },
+      { title: "Proven — Mock Test & Assessment Portal" },
       {
         name: "description",
         content:
           "Configure a timed practice assessment: choose level, category, question count and timer, then review your pass/fail result.",
       },
-      { property: "og:title", content: "Certify — Mock Test & Assessment Portal" },
+      { property: "og:title", content: "Proven — Mock Test & Assessment Portal" },
       {
         property: "og:description",
         content: "Timed practice assessments with instant scoring and answer review.",
@@ -151,10 +151,10 @@ function Index() {
       <header className="border-b border-border bg-surface">
         <div className="mx-auto flex max-w-3xl items-center justify-between gap-4 px-4 py-3.5 sm:px-6">
           <div className="flex min-w-0 items-center gap-2.5">
-            <span className="grid size-8 shrink-0 place-items-center rounded-md bg-primary text-primary-foreground">
+            <span className="grid size-8 shrink-0 place-items-center rounded-full bg-primary text-primary-foreground">
               <GraduationCap className="size-4.5" />
             </span>
-            <span className="truncate text-sm font-semibold tracking-tight">Certify Assessments</span>
+            <span className="truncate font-display text-lg font-semibold tracking-tight">Proven</span>
           </div>
           <div className="flex shrink-0 items-center gap-3">
             <span className="hidden text-xs font-medium text-muted-foreground sm:inline">
@@ -176,7 +176,7 @@ function Index() {
               type="button"
               onClick={() => setDark((d) => !d)}
               aria-label="Toggle theme"
-              className="grid size-9 place-items-center rounded-md border border-border transition-colors duration-150 hover:bg-secondary"
+              className="grid size-9 place-items-center rounded-full border border-border transition-colors duration-150 hover:bg-secondary"
             >
               {dark ? <Sun className="size-4" /> : <Moon className="size-4" />}
             </button>
