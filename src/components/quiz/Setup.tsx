@@ -77,9 +77,10 @@ export function Setup({
 
   return (
     <div className="card-surface p-6 sm:p-8">
-      <h1 className="font-display text-3xl font-semibold tracking-tight sm:text-4xl">Configure your assessment</h1>
+      <h1 className="font-display text-3xl font-semibold tracking-tight sm:text-4xl">Quizizz Quiz</h1>
       <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-        Select the parameters below. The test begins as soon as you start and cannot be paused.
+        A free practice platform for timed mock tests. Pick a difficulty, category and timer style,
+        then get instant scoring with a full answer review at the end — pass mark is 50%.
       </p>
 
       <div className="mt-8 space-y-6">

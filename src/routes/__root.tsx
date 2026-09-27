@@ -77,9 +77,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Proven — Mock Test Portal" },
-      { name: "description", content: "Configure and take timed practice assessments." },
-      { name: "author", content: "Proven" },
+      { title: "Quizizz Quiz — Free Timed Mock Tests" },
+      { name: "description", content: "Free timed mock tests with instant scoring and answer review." },
+      { name: "author", content: "Quizizz Quiz" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
