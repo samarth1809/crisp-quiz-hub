@@ -10,16 +10,16 @@ import { Results } from "@/components/quiz/Results";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Proven — Mock Test & Assessment Portal" },
+      { title: "Quizizz Quiz — Free Timed Mock Tests" },
       {
         name: "description",
         content:
-          "Configure a timed practice assessment: choose level, category, question count and timer, then review your pass/fail result.",
+          "Quizizz Quiz is a free practice platform for timed mock tests: choose level, category, question count and timer, then get instant scoring with a full answer review.",
       },
-      { property: "og:title", content: "Proven — Mock Test & Assessment Portal" },
+      { property: "og:title", content: "Quizizz Quiz — Free Timed Mock Tests" },
       {
         property: "og:description",
-        content: "Timed practice assessments with instant scoring and answer review.",
+        content: "Timed mock tests with instant scoring, pass/fail results and answer review.",
       },
     ],
   }),
@@ -154,7 +154,7 @@ function Index() {
             <span className="grid size-8 shrink-0 place-items-center rounded-full bg-primary text-primary-foreground">
               <GraduationCap className="size-4.5" />
             </span>
-            <span className="truncate font-display text-lg font-semibold tracking-tight">Proven</span>
+            <span className="truncate font-display text-lg font-semibold tracking-tight">Quizizz Quiz</span>
           </div>
           <div className="flex shrink-0 items-center gap-3">
             <span className="hidden text-xs font-medium text-muted-foreground sm:inline">
@@ -212,9 +212,6 @@ function Index() {
             onRetry={retry}
           />
         )}
-        <p className="mt-8 text-center text-xs text-muted-foreground">
-          Runs entirely in your browser. Results are not stored or shared.
-        </p>
       </main>
     </div>
   );
