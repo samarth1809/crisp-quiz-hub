@@ -122,7 +122,7 @@ export function Setup({
           <Options
             value={config.count}
             onChange={(count) => setConfig({ ...config, count })}
-            options={[5, 10, 20, 30].map((n) => ({ value: n, label: String(n) }))}
+            options={[5, 10, 15, 20].map((n) => ({ value: n, label: String(n) }))}
           />
           <p className="text-xs text-muted-foreground">
             {available} question{available === 1 ? "" : "s"} available for this selection
