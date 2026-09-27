@@ -25,6 +25,7 @@ export function Quiz({
   onSubmit: () => void;
 }) {
   const q = questions[index];
+  if (!q) return null;
   const answered = answers.filter((a) => a !== null).length;
   const progress = (answered / questions.length) * 100;
   const isLast = index === questions.length - 1;
