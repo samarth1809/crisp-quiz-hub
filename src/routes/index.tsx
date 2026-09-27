@@ -16,7 +16,7 @@ export const Route = createFileRoute("/")({
         content:
           "Configure a timed practice assessment: choose level, category, question count and timer, then review your pass/fail result.",
       },
-      { property: "og:title", content: "Certify — Mock Test & Assessment Portal" },
+      { property: "og:title", content: "Proven — Mock Test & Assessment Portal" },
       {
         property: "og:description",
         content: "Timed practice assessments with instant scoring and answer review.",
